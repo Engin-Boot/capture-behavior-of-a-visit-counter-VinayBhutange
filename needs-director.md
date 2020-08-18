@@ -10,7 +10,7 @@
 
 ## Scenario : Compute parking slots to reserve for visiting specialists
 
-  Given : Specialist visits and  sensor works properly and entry card is issued.
+  Given : Specialist visits and  sensor works properly.
   
   When : Whenever specialist visit the hospital.
   
