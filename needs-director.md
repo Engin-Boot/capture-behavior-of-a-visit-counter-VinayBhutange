@@ -14,4 +14,4 @@
   
   When : Whenever specialist visit the hospital.
   
-  Then : Sensor identify the specialist and then issues an identity card and reserve parking lot.
+  Then : Issued an identity card and reserve parking lot.
