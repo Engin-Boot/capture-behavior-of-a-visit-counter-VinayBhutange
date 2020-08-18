@@ -2,12 +2,16 @@
 
 Scenario: Report visitor trends during a week of operation
 
-  Given
-  When
-  Then
+  Given : Count data of visitors of previous week.
+  
+  When : Starting day of new week.
+  
+  Then : Publish the data of previous week.
 
 Scenario: Alert when seating capacity is full
 
-  Given
-  When
-  Then
+  Given : The data of visitors is available.
+  
+  When : The number of visitors crosses the maximum limit of seats available in the seating zone.
+  
+  Then : Alert the respective department for the action.
