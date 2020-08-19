@@ -7,7 +7,7 @@ that runs the visit-counter
   
   When : System fails
   
-  Then : The value of counter is changed in the server.
+  Then : System changes the value of counter in the server .
 
 Scenario: Reconcile counts if the sensor is offline for a while
 
