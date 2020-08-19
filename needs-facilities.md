@@ -2,7 +2,8 @@
 
 ## Scenario: Report visitor trends during a week of operation
 
-  Given : Count data of visitors of previous week and hospital issues the id card to every visitors.
+  Given : Count data of visitors of previous week
+  and hospital issues the id card to every visitors.
   
   When : Starting day of new week.
   
