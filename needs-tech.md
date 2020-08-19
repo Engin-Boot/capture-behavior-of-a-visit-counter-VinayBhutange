@@ -3,12 +3,16 @@
 Scenario: Recover across restarts of the server
 that runs the visit-counter
 
-  Given : visit counter is connected to the central server and all the data is synced.
+  Given : There is central server connected to the visit counter.
+  
   When : System fails
-  Then : After restart the server should be synced with all data.
+  
+  Then : The value of counter is changed in the server.
 
 Scenario: Reconcile counts if the sensor is offline for a while
 
   Given : Server works fine and the visit counter stores count.
+  
   When : Sensor is offline and a visitor visits.
+  
   Then : System changes the value of counter from an offline log.
