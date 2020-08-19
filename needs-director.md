@@ -4,7 +4,7 @@
 
   Given : A patient visits the hospital and sensor works properly.
 
-  When : the patients enter into the hospital.
+  When : the patients visits the hospital.
   
   Then : the sensor will identify the patient and increment the count.
 
